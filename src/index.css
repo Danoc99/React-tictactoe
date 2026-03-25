@@ -51,13 +51,14 @@ ul {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Georgia', serif;
   margin: 20px;
   padding: 0;
+  background-color: #E3C2E9;
 }
 
 .square {
-  background: #fff;
+  background: #00ffff;
   border: 1px solid #999;
   float: left;
   font-size: 24px;
@@ -78,6 +79,9 @@ body {
 }
 
 .status {
+  font-size: 20px;
+  font-weight: bold;
+  color: #348437;
   margin-bottom: 10px;
 }
 .game {
@@ -85,6 +89,12 @@ body {
   flex-direction: row;
 }
 
-.game-info {
-  margin-left: 20px;
+.game-info button {
+  background-color: #D35D5D;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 3px;
 }
